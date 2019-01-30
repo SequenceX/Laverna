@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laverna", "Laverna\Laverna.csproj", "{BF9FCD24-7144-4ABA-AE79-2BF43825A465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9FCD24-7144-4ABA-AE79-2BF43825A465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9FCD24-7144-4ABA-AE79-2BF43825A465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9FCD24-7144-4ABA-AE79-2BF43825A465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9FCD24-7144-4ABA-AE79-2BF43825A465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F791694-3B9F-4A57-A979-9B69720B1187}
+	EndGlobalSection
+EndGlobal
