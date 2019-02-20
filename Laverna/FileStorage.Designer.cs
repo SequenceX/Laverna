@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Laverna.Properties {
+namespace Laverna {
     using System;
     
     
@@ -22,24 +22,24 @@ namespace Laverna.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class FileStorage {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal FileStorage() {
         }
         
         /// <summary>
         ///   Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Laverna.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Laverna.FileStorage", typeof(FileStorage).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,12 +51,63 @@ namespace Laverna.Properties {
         ///   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die &apos; 
+        ///&apos;REBASE version 303                                             strider.303
+        ///&apos; 
+        ///&apos;    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        ///&apos;    REBASE, The Restriction Enzyme Database   http://rebase.neb.com
+        ///&apos;    Copyright (c)  Dr. Richard J. Roberts, 2013.   All rights reserved.
+        ///&apos;    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        ///&apos; 
+        ///&apos;Rich Roberts                                                   Feb 27 2013
+        ///&apos; 
+        ///#AarI,cacctgc,4,8,
+        ///AatII,gacgt/c,
+        ///AbsI,cc/tcgagg [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        /// </summary>
+        internal static string EnzymeDatabase {
+            get {
+                return ResourceManager.GetString("EnzymeDatabase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] SE_Sequence_Modifier__Vers__1_0_1_0_ {
+            get {
+                object obj = ResourceManager.GetObject("SE_Sequence_Modifier__Vers__1_0_1_0_", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] Sequence_Grabber_V_0_1_0_2 {
+            get {
+                object obj = ResourceManager.GetObject("Sequence_Grabber_V_0_1_0_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] StrandPrimerDesignerV1_0_0_0 {
+            get {
+                object obj = ResourceManager.GetObject("StrandPrimerDesignerV1_0_0_0", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

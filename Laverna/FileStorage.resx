@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SE_Sequence_Modifier__Vers__1_0_1_0_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FileStore\SE Sequence Modifier (Vers. 1.0.1.0).exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StrandPrimerDesignerV1_0_0_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FileStore\StrandPrimerDesignerV1.0.0.0.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sequence_Grabber_V_0_1_0_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FileStore\Sequence Grabber V 0.1.0.2.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EnzymeDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FileStore\EnzymeDatabase.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>
