@@ -49,7 +49,12 @@ namespace Laverna
             string PathEnzymeDatabase;
             List<string> ListOfRows = new List<string>();
 
-            PathEnzymeDatabase = @"\EnzymeDatabase.txt";
+
+            INIHandler ini = new INIHandler(ProGSYMainFrame.iniPath);
+            PathEnzymeDatabase = ini.IniReadValue("Settings", "EnzymeDatabasePath");
+
+
+
 
             // --- Datei öffnen
             FileStream fs = new FileStream(PathEnzymeDatabase, FileMode.OpenOrCreate, FileAccess.Read);

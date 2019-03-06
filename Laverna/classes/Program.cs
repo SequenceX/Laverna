@@ -16,7 +16,12 @@ namespace Laverna
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LavernaMainFrame());
+            ProGSYMainFrame  mainFrame = new  ProGSYMainFrame();
+            
+            Application.Run(mainFrame);
+            //Application.Run(new ProGSYMainFrame());
+
+           
         }
     }
 }

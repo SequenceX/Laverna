@@ -47,11 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\DNAHandler.cs" />
     <Compile Include="classes\FileHandler.cs" />
+    <Compile Include="classes\SubcloningBMI.cs" />
     <Compile Include="FileStorage.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FileStorage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSuChooseSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSuChooseSite.Designer.cs">
+      <DependentUpon>FrmSuChooseSite.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SettingsForm.cs">
       <SubType>Form</SubType>
@@ -59,11 +67,11 @@
     <Compile Include="Forms\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LavernaMainFrame.cs">
+    <Compile Include="Forms\ProGSYMainFrame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LavernaMainFrame.Designer.cs">
-      <DependentUpon>LavernaMainFrame.cs</DependentUpon>
+    <Compile Include="Forms\ProGSYMainFrame.Designer.cs">
+      <DependentUpon>ProGSYMainFrame.cs</DependentUpon>
     </Compile>
     <Compile Include="classes\INIHandler.cs" />
     <Compile Include="classes\Program.cs" />
@@ -72,11 +80,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FileStorage.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSuChooseSite.resx">
+      <DependentUpon>FrmSuChooseSite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LavernaMainFrame.resx">
-      <DependentUpon>LavernaMainFrame.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ProGSYMainFrame.resx">
+      <DependentUpon>ProGSYMainFrame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

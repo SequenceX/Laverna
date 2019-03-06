@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace Laverna
 {
-    public class INIHandler
+    public  class INIHandler
     {    /// Create a New INI file to store or load data
         private string path;
         [DllImport("kernel32")]
@@ -19,6 +19,7 @@ namespace Laverna
         {        /// INIFile Constructor.
             path = INIPath;
         }
+
         public void IniWriteValue(string Section, string Key, string Value)
         {/// Write Data to the INI File
             WritePrivateProfileString(Section, Key, Value, this.path);
@@ -29,5 +30,8 @@ namespace Laverna
             int i = GetPrivateProfileString(Section, Key, "", temp, 255, this.path);
             return temp.ToString();
         }
+
+
+     
     }
 }
